@@ -1,9 +1,11 @@
 using System;
 
-class Program
+class MainClass
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop02 World!");
+        Typewriter.Print("Welcome to the Journal Program!\n", 40);
+        Menu menu = new Menu();
+        menu.Display();
     }
 }
