@@ -12,7 +12,7 @@ class WordCounter
     {
         string[] words = text.Split(' ');
 
-        foreach string(word in words)
+        foreach (string word in words)
         {
             _words.Add(word);
         }
@@ -21,7 +21,20 @@ class WordCounter
     {
         foreach (string word in _words)
         {
-            
+            Console.WriteLine(word);
         }
+    }
+    public int CountSingleWord(string searchWord)
+    {
+        int count = 0;
+        foreach (string word in _words)
+        {
+            if (word == searchWord)
+            {
+                count++;
+            }
+            Console.WriteLine(word);
+        }
+        return count;
     }
 }

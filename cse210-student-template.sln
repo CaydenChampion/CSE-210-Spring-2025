@@ -53,6 +53,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox", "sandbox\Sandbox\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCounter", "WordCounter\WordCounter.csproj", "{5FFE6EA1-9382-4678-A474-F29E70774AA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSE210TestApp", "CSE210TestApp\CSE210TestApp.csproj", "{3AD051B7-9B09-4BA0-A389-3DD5E1902533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{B1F3ADD3-8897-4D49-8C0D-8BDFA012A218}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +143,14 @@ Global
 		{5FFE6EA1-9382-4678-A474-F29E70774AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FFE6EA1-9382-4678-A474-F29E70774AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FFE6EA1-9382-4678-A474-F29E70774AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD051B7-9B09-4BA0-A389-3DD5E1902533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD051B7-9B09-4BA0-A389-3DD5E1902533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD051B7-9B09-4BA0-A389-3DD5E1902533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD051B7-9B09-4BA0-A389-3DD5E1902533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F3ADD3-8897-4D49-8C0D-8BDFA012A218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F3ADD3-8897-4D49-8C0D-8BDFA012A218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F3ADD3-8897-4D49-8C0D-8BDFA012A218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F3ADD3-8897-4D49-8C0D-8BDFA012A218}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
